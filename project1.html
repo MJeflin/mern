@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Jeflin M</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #000;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+        header nav {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 15px;
+        }
+        header nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 0.1lem;
+            font-weight: 600;
+        }
+        header nav a:hover {
+            color: #ccc;
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 30px;
+        }
+        .section {
+            margin-bottom: 70px;
+        }
+        .section h2 {
+            font-size: 2.5em;
+            color: #000;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .section p {
+            font-size: 1.2em;
+            color: #333;
+            text-align: center;
+            margin: 10px auto;
+            width: 80%;
+        }
+        .projects, .contact-form {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            justify-items: center;
+        }
+        .project-card {
+            background: #f7f7f7;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            border: 1px solid #ccc;
+        }
+        .project-card h3 {
+            margin-top: 15px;
+            color: #000;
+        }
+        .project-card p {
+            color: #555;
+        }
+        .contact-form input, .contact-form textarea, .contact-form button {
+            padding: 18px;
+            background: #f7f7f7;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            width: 80%;
+            margin: 15px 0;
+            font-size: 1.1em;
+        }
+        .contact-form button {
+            background-color: #000;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .contact-form button:hover {
+            background-color: #333;
+        }
+        footer {
+            background-color: #000;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 1.2em;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+        footer a:hover {
+            color: #ccc;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div>Jeflin M</div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#leadership">Leadership</a>
+            <a href="#interests">Interests</a>
+            <a href="#languages">Languages</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>Recent graduate in Electronics and Communication Engineering with practical project experience and a successful internship at Titan Company. Seeking to apply my problem-solving skills and technical expertise to a dynamic organization.</p>
+        </section>
+
+        <section id="education" class="section">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>Bachelor of Engineering (B.E.) - Electronics and Communication Engineering</strong><br>Sri Krishna College of Technology, Coimbatore<br><strong>CGPA:</strong> 7.6 | <strong>Graduation Year:</strong> 2027</li>
+                <li><strong>High School</strong><br>Christuraja Matriculation and Higher Secondary School, Marthandam, Tamil Nadu</li>
+            </ul>
+        </section>
+
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>Technical Skills:</strong> C++, Java, Embedded Systems</li>
+                <li><strong>Tools:</strong> Arduino, MATLAB</li>
+                <li><strong>Soft Skills:</strong> Problem-Solving, Communication, Teamwork, Leadership</li>
+            </ul>
+        </section>
+
+        <section id="certifications" class="section">
+            <h2>Certifications</h2>
+            <ul>
+                <li>NPTEL: Completed "Effective Writing" course, enhancing communication and technical writing abilities</li>
+                <li>Coursera: Various certifications in advanced skills</li>
+                <li>MathWorks: MATLAB for system modeling and simulation</li>
+                <li>MongoDB: Fundamentals of NoSQL databases</li>
+                <li>Infosys Springboard: Cloud computing and data structures</li>
+            </ul>
+        </section>
+
+        <section id="experience" class="section">
+            <h2>Experience</h2>
+            <ul>
+                <li><strong>Intern, NSIC, Chennai (1 Week):</strong> Learned about basic power supply concepts and gained practical experience with Arduino systems.</li>
+                <li><strong>Intern, Titan Company, Hosur (July 2024):</strong> Worked in the Module Maintenance Department, gaining insights into watchmaking and the industry's technological and mechanical aspects. Contributed to optimizing the module assembly process, which resulted in a 10% reduction in production time, and collaborated with cross-functional teams to ensure seamless integration of new technologies.</li>
+            </ul>
+        </section>
+
+        <section id="leadership" class="section">
+            <h2>Leadership</h2>
+            <ul>
+                <li><strong>Upskill Coordinator:</strong> Encouraged students to pursue Coursera courses and certifications to enhance employability and technical knowledge.</li>
+            </ul>
+        </section>
+
+        <section id="interests" class="section">
+            <h2>Personal Interests</h2>
+            <ul>
+                <li>Music: Enjoy listening to and playing music, which helps relax and refresh creative thinking</li>
+                <li>Painting: Enhances creativity and attention to detail</li>
+            </ul>
+        </section>
+
+        <section id="languages" class="section">
+            <h2>Languages</h2>
+            <ul>
+                <li>Tamil: Native proficiency</li>
+                <li>Malayalam: Fluent</li>
+                <li>English: Proficient in both written and spoken communication</li>
+            </ul>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Me</h2>
+            <div class="contact-form">
+                <input type="text" placeholder="Your Name" required />
+                <input type="email" placeholder="Your Email" required />
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button>Send Message</button>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Jeflin M | <a href="mailto:jeflin.pdu@gmail.com">Contact</a></p>
+    </footer>
+</body>
+</html>
